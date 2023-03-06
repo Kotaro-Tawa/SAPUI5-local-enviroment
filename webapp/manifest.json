@@ -1,0 +1,42 @@
+{
+  "_version": "1.1.0",
+  "sap.app": {
+    "id": "com.example.myapp",
+    "type": "application",
+    "title": "My App",
+    "description": "Description of my app",
+    "applicationVersion": {
+      "version": "1.1.0"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "deviceTypes": {
+        "desktop":true,
+        "tablet":true,
+        "phone":true},
+    "dependencies": {
+      "minUI5Version": "1.84.0"
+    }
+  },
+  "sap.ui5": {
+  "dependencies": {
+    "minUI5Version": "1.84.0",
+    "libs": {
+      "sap.m": {},
+      "sap.ui.layout": {}   
+    },
+    "components": {
+      "my.custom.component": {
+        "minVersion": "1.0.0",
+        "lazy": true
+      }
+    }
+  },
+  "contentDensities": {
+    "compact": true,
+    "cozy": true
+  }
+
+}  
+}
